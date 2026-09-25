@@ -1,4 +1,8 @@
-
+<p align="center">
+  <img src="mob.jpg"
+       alt="Mob Psycho 100"
+       width="400">
+</p>
 
 # Lenguaje de Marcas | 1º DAW
 
