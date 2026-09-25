@@ -1,4 +1,15 @@
+<p align="center">
+  <img src="mob.jpg"
+       alt="Mob Psycho 100"
+       width="500">
+</p> 
+
 # Lenguaje de Marcas | 1º DAW
+
+> Toda gran proyecto empieza con una simple etiqueta
+
+
+Repositorio dedicado al módulo de **Lenguaje de Marcas** donde se guardaran actividades y prácticas relacionadas
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-8B0000?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
@@ -8,19 +19,18 @@
   <img src="https://img.shields.io/badge/XSD-8B0000?style=for-the-badge&logoColor=white" alt="XSD">
 </p>
 
-Repositorio dedicado al módulo de **Lenguaje de Marcas** donde se guardaran actividades y prácticas relacionadas
-
 ---
 
-## Sobre mi
+## 👾 Sobre mi
 
 Holiss!! soy Grecia, estudiante de **1º DAW**.
 
-Me interesa el desarrollo web, la programación y el diseño de interfaces
+- **Intereses:** Me interesa el desarrollo web, la programación y el diseño de interfaces
+- **Metas:** Aprender a diseñar páginas y sitios webs y seguir mejorando mis habilidades en este campo
 
 ---
 
-## Contenidos del Módulo
+## 📚 Contenidos del Módulo
 
 1. UT1. Introducción a los lenguajes de marcas.
 2. UT2. XML: sintaxis, estructura y espacios de nombres.
@@ -36,10 +46,24 @@ Me interesa el desarrollo web, la programación y el diseño de interfaces
 
 
 ---
-## Estructura del Repositorio
+## 🗂️ Estructura del Repositorio
 
-|Carpeta | Contenido |
+| Carpeta | Contenido |
 |---|---|
-|Unidad-01 | Actividades de la primera unidad|
-|Prácticas | Prácticas del módulo|
+| `unidad-01/` | Actividades de la primera unidad. |
+| `practicas/` | Índice de prácticas del módulo. |
+
+---
+
+## 🎯 Seguimiento
+
+- [X] Creación del repositorio en github
+- [X] Personalizar mi README principal
+- [ ] Crear Unidad-01 README.md
+- [ ] Crear practicas README.md
+- [ ] Completar la primera Actividad de la unidad 1
+
+---
+
+>``
 
