@@ -65,8 +65,6 @@ Holiss!! soy Grecia, estudiante de **1º DAW**.
 
 ---
 
----
-
 <p align="center">
   <em>«Gracias por llegar hasta aquí.</em><br>
   <em>Esto es solo el comienzo.»</em>
@@ -74,5 +72,5 @@ Holiss!! soy Grecia, estudiante de **1º DAW**.
   <code>100% · DAW 2026–2027</code>
 </p>
 
->``
+
 
