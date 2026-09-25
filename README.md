@@ -59,11 +59,20 @@ Holiss!! soy Grecia, estudiante de **1º DAW**.
 
 - [X] Creación del repositorio en github
 - [X] Personalizar mi README principal
-- [ ] Crear Unidad-01 README.md
-- [ ] Crear practicas README.md
+- [X] Crear Unidad-01 README.md
+- [X] Crear practicas README.md
 - [ ] Completar la primera Actividad de la unidad 1
 
 ---
+
+---
+
+<p align="center">
+  <em>«Gracias por llegar hasta aquí.</em><br>
+  <em>Esto es solo el comienzo.»</em>
+  <br><br>
+  <code>100% · DAW 2026–2027</code>
+</p>
 
 >``
 
