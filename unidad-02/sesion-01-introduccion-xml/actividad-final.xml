@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<universo>
+    <!-- Coleccion de personajes-->
+    <heroe id="H01">
+        <nombre>Tony Stark</nombre>
+        <identidad>Iron Man</identidad>
+        <hablidades>
+            <habilidad>Inteligencia</habilidad>
+            <habilidad>Tecnología</habilidad>
+            <habilidad>Liderazgo</habilidad>
+        </hablidades>
+        <equipo>Vengadores</equipo>
+    </heroe>
+
+    <heroe id="H02">
+        <nombre>Steve Rogers</nombre>
+        <identidad>Capitan America</identidad>
+        <habilidades>
+            <habilidad>Humano mejorado</habilidad>
+            <habilidad>Envejecimiento lento</habilidad>
+            <habilidad>Fuerza &amp; resistencia</habilidad>
+            <habilidad>Combate cuerpo a cuerpo &amp; táctica</habilidad>
+            <habilidad>Liderazgo</habilidad>
+        </habilidades>
+        <arma>Escudo</arma>
+        <equipo>Vengadores</equipo>
+    </heroe>
+
+    <heroe id="H03">
+        <nombre>Thor Odinson</nombre>
+        <identidad>Thor</identidad>
+        <hablidades>
+            <habilidad>Dios del trueno</habilidad>
+            <habilidad>Envejecimiento lento</habilidad>
+            <habilidad>Control del trueno</habilidad>
+            <habilidad>Control del trueno</habilidad>
+            <habilidad>Combate cuerpo a cuerpo</habilidad>
+            <habilidad>Liderazgo</habilidad>
+        </hablidades>
+        <arma>Mjolnir</arma>
+        <equipo>Vengadores &amp; guardianes de la galaxia &amp; revengadores</equipo>
+    </heroe>
+</universo>

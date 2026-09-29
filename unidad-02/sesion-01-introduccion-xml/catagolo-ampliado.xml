@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+<videojuego id="V001" disponible="true">
+        <titulo>Hollow Knight</titulo>
+        <desarrolladora>Team Cherry</desarrolladora>
+        <genero>Metroidvania</genero>
+        <precio moneda="EUR">14.99</precio>
+    </videojuego>
+
+    <videojuego id="V002" disponible="true">
+        <titulo>Zenless Zone Zero</titulo>
+        <desarrolladora>Hoyoverso</desarrolladora>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>Play Station</plataforma>
+        </plataformas>
+        <precio moneda="EUR">00.00 </precio>
+    </videojuego>
+
+    <!-- Tercer videojuego del catalogo-->
+
+    <videojuego id="V003" disponible="true">
+        <titulo>Honkai Rail</titulo>
+        <desarrolladora>Hoyoverso</desarrolladora>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>Play Station</plataforma>
+        </plataformas>
+        <precio moneda="EUR">00.00 </precio>
+    </videojuego>
+
+    <videojuego id="V004" disponible="true">
+        <titulo>Minecraft</titulo>
+        <desarrolladora>Mojang Studios</desarrolladora>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>Play Station</plataforma>
+            <plataforma>Xbox</plataforma>
+            <plataforma>Nintendo Switch</plataforma>
+        </plataformas>
+        <precio moneda="EUR">29,99</precio>
+    </videojuego>
+
+    <videojuego id="V005" disponible="true">
+        <titulo>My pet Femboy</titulo>
+        <desarrolladora>FzzyBzzy</desarrolladora>
+        <plataformas>
+            <plataforma>PC</plataforma>
+        </plataformas>
+        <precio moneda="EUR">3,15</precio>
+    </videojuego>
+
+
+    <videojuego id="V006" disponible="true">
+        <titulo>Elden Ring</titulo>
+        <desarrolladora>FromSoftware</desarrolladora>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>Play Station</plataforma>
+            <plataforma>Nintendo Switch</plataforma>
+            <plataforma>Xbox</plataforma>
+        </plataformas>
+        <precio moneda="EUR">69.00</precio>
+    </videojuego>
+
+
+    <videojuego id="V007" disponible="true">
+        <titulo>Wuthering Waves </titulo>
+        <desarrolladora>KURO GAMES</desarrolladora>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>Play Station</plataforma>
+            <plataforma>Xbox</plataforma>
+        </plataformas>
+        <precio moneda="EUR">00.00 </precio>
+    </videojuego>
+
+    <videojuego id="V008" disponible="true">
+        <titulo>Resident Evil</titulo>
+        <desarrolladora>CONCAP</desarrolladora>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>Play Station</plataforma>
+            <plataforma>Xbox</plataforma>
+        </plataformas>
+        <precio moneda="EUR">20.00</precio>
+    </videojuego>
+
+    <videojuego id="V009" disponible="true">
+        <titulo>Fortnite</titulo>
+        <desarrolladora>Epic Games</desarrolladora>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>Play Station</plataforma>
+        </plataformas>
+        <precio moneda="EUR">00.00 </precio>
+    </videojuego>
+
+    <videojuego id="V0010" disponible="true">
+        <titulo>Dispatch</titulo>
+        <desarrolladora>AdHoc Studio</desarrolladora>
+        <plataformas>
+            <plataforma>PC</plataforma>
+            <plataforma>Play Station</plataforma>
+        </plataformas>
+        <precio moneda="EUR">38.99</precio>
+    </videojuego>
+</catalogo>
