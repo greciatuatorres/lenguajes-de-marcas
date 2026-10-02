@@ -61,7 +61,7 @@ Holiss!! soy Grecia, estudiante de **1º DAW**.
 - [X] Personalizar mi README principal
 - [X] Crear Unidad-01 README.md
 - [X] Crear practicas README.md
-- [ ] Completar la primera Actividad de la unidad 1
+- [X] Completar la primera Actividad de la unidad 1
 
 ---
 
