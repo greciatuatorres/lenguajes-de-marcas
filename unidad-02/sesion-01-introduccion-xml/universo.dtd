@@ -1,0 +1,10 @@
+<!ELEMENT universo (heroe+)>
+<!ELEMENT heroe (nombre, identidad, habilidades, arma?, equipo)>
+<!ATTLIST heroe id ID #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT identidad (#PCDATA)>
+<!ELEMENT habilidades (habilidad+)>
+<!ELEMENT habilidad (#PCDATA)>
+<!ELEMENT arma (#PCDATA)>
+<!ELEMENT equipo (#PCDATA)>

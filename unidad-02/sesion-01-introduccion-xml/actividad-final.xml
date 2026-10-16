@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE universo SYSTEM "universo.dtd">
 <universo>
     <!-- Coleccion de personajes-->
     <heroe id="H01">
         <nombre>Tony Stark</nombre>
         <identidad>Iron Man</identidad>
-        <hablidades>
+        <habilidades>
             <habilidad>Inteligencia</habilidad>
             <habilidad>Tecnología</habilidad>
             <habilidad>Liderazgo</habilidad>
-        </hablidades>
+        </habilidades>
         <equipo>Vengadores</equipo>
     </heroe>
 
@@ -29,14 +30,14 @@
     <heroe id="H03">
         <nombre>Thor Odinson</nombre>
         <identidad>Thor</identidad>
-        <hablidades>
+        <habilidades>
             <habilidad>Dios del trueno</habilidad>
             <habilidad>Envejecimiento lento</habilidad>
             <habilidad>Control del trueno</habilidad>
             <habilidad>Control del trueno</habilidad>
             <habilidad>Combate cuerpo a cuerpo</habilidad>
             <habilidad>Liderazgo</habilidad>
-        </hablidades>
+        </habilidades>
         <arma>Mjolnir</arma>
         <equipo>Vengadores &amp; guardianes de la galaxia &amp; revengadores</equipo>
     </heroe>
