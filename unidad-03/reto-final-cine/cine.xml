@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cine SYSTEM "cine.dtd">
+<cine id="cine1">
+
+    <informacion>
+        <nombre>Cinépolis</nombre>
+        <direccion>Av. del Cine</direccion>
+        <localidad>Santa Cruz de Tenerife</localidad>
+        <telefono>919124356</telefono>
+    </informacion>
+
+    <cartelera>
+        <pelicula id="p1" clasificacion="12" idioma="VOSE">
+            <titulo>Avengers Doomsday</titulo>
+            <director>Hermanos Russo</director>
+            <genero>Superheroes</genero>
+            <duracion>145</duracion>
+            <estreno>2026-12-17</estreno>
+            <sinopsis>Heroes de universos distintos deben unir fuerzas y enfrentarse al Doctor Doom.</sinopsis>
+        </pelicula>
+
+        <pelicula id="p2" clasificacion="18" idioma="VO" disponible="false">
+            <titulo>Parasitos</titulo>
+            <director>Bong Joon-ho</director>
+            <genero>Drama</genero>
+            <duracion>132</duracion>
+            <estreno>2019-10-25</estreno>
+            <sinopsis>Lucha de clases y un giro inesperado de los acontecimientos.</sinopsis>
+        </pelicula>
+
+        <pelicula id="p3" clasificacion="TP" idioma="ES">
+            <titulo>Cars</titulo>
+            <director>John Lasseter</director>
+            <genero>Animacion</genero>
+            <duracion>117</duracion>
+            <estreno>2006-06-09</estreno>
+        </pelicula>
+
+        <pelicula id="p4" clasificacion="16" idioma="VOSE">
+            <titulo>Jojo Rabbit</titulo>
+            <director>Taika Waititi</director>
+            <genero>Comedia</genero>
+            <duracion>108</duracion>
+            <estreno>2019-10-18</estreno>
+            <sinopsis>Durante la Segunda Guerra Mundial, un joven descubre que su madre oculta a una
+                niña judia en casa.</sinopsis>
+        </pelicula>
+    </cartelera>
+
+    <salas>
+        <sala id="sala1">
+            <nombre>Sala 1</nombre>
+            <capacidad>4</capacidad>
+            <butacas>
+                <butaca id="b1a1" tipo="normal">
+                    <fila>A</fila>
+                    <numero>1</numero>
+                </butaca>
+                <butaca id="b1a2" tipo="premium">
+                    <fila>A</fila>
+                    <numero>2</numero>
+                </butaca>
+                <butaca id="b1b1" tipo="adaptada">
+                    <fila>B</fila>
+                    <numero>1</numero>
+                </butaca>
+                <butaca id="b1b2" tipo="normal">
+                    <fila>B</fila>
+                    <numero>2</numero>
+                </butaca>
+            </butacas>
+        </sala>
+
+        <sala id="sala2">
+            <nombre>Sala 2</nombre>
+            <capacidad>4</capacidad>
+            <butacas>
+                <butaca id="b2a1" tipo="normal">
+                    <fila>A</fila>
+                    <numero>1</numero>
+                </butaca>
+                <butaca id="b2a2" tipo="premium">
+                    <fila>A</fila>
+                    <numero>2</numero>
+                </butaca>
+                <butaca id="b2b1" tipo="adaptada">
+                    <fila>B</fila>
+                    <numero>1</numero>
+                </butaca>
+                <butaca id="b2b2" tipo="normal">
+                    <fila>B</fila>
+                    <numero>2</numero>
+                </butaca>
+            </butacas>
+        </sala>
+    </salas>
+
+    <sesiones>
+        <sesion id="ses1" pelicula="p1" sala="sala1">
+            <fecha>2026-12-18</fecha>
+            <hora>16:00:00</hora>
+            <precio moneda="EUR">8.50</precio>
+        </sesion>
+
+        <sesion id="ses2" pelicula="p3" sala="sala2">
+            <fecha>2026-11-01</fecha>
+            <hora>17:30:00</hora>
+            <precio moneda="EUR">7.00</precio>
+        </sesion>
+
+        <sesion id="ses3" pelicula="p1" sala="sala2">
+            <fecha>2026-12-18</fecha>
+            <hora>20:00:00</hora>
+            <precio moneda="EUR">9.50</precio>
+        </sesion>
+
+        <sesion id="ses4" pelicula="p4" sala="sala1">
+            <fecha>2026-11-02</fecha>
+            <hora>19:00:00</hora>
+            <precio moneda="EUR">8.00</precio>
+        </sesion>
+    </sesiones>
+
+    <reservas>
+        <reserva id="r1" sesion="ses1" estado="confirmada">
+            <cliente>
+                <nombre>Laura Martin</nombre>
+                <correo>laura@example.com</correo>
+            </cliente>
+            <fecha>2026-12-10</fecha>
+            <entradas>
+                <entrada butaca="b1a1" tipo="general" />
+                <entrada butaca="b1a2" tipo="general" />
+            </entradas>
+        </reserva>
+
+        <reserva id="r2" sesion="ses2" estado="pendiente">
+            <cliente>
+                <nombre>Alex Garcia</nombre>
+                <correo>alex@example.com</correo>
+            </cliente>
+            <fecha>2026-10-26</fecha>
+            <entradas>
+                <entrada butaca="b2a1" tipo="general" />
+            </entradas>
+        </reserva>
+
+        <reserva id="r3" sesion="ses3" estado="cancelada">
+            <cliente>
+                <nombre>Sergio Cruz</nombre>
+                <correo>sergio@example.com</correo>
+            </cliente>
+            <fecha>2026-12-11</fecha>
+            <entradas>
+                <entrada butaca="b2b1" tipo="reducida" />
+            </entradas>
+        </reserva>
+    </reservas>
+
+</cine>

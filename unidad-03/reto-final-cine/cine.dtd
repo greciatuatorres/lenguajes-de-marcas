@@ -1,0 +1,75 @@
+
+<!ELEMENT cine (informacion, cartelera, salas, sesiones, reservas)>
+<!ATTLIST cine
+    id ID #REQUIRED
+    xmlns:xsi CDATA #FIXED "http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+>
+
+<!ELEMENT informacion (nombre, direccion, localidad, telefono)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+<!ELEMENT cartelera (pelicula+)>
+<!ELEMENT pelicula (titulo, director, genero, duracion, estreno, sinopsis?)>
+<!ATTLIST pelicula
+    id ID #REQUIRED
+    clasificacion (TP | 7 | 12 | 16 | 18) #REQUIRED
+    idioma (ES | VOSE | VO) #REQUIRED
+    disponible (true | false) "true"
+>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT estreno (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+
+<!ELEMENT salas (sala+)>
+<!ELEMENT sala (nombre, capacidad, butacas)>
+<!ATTLIST sala id ID #REQUIRED>
+
+<!ELEMENT capacidad (#PCDATA)>
+<!ELEMENT butacas (butaca+)>
+<!ELEMENT butaca (fila, numero)>
+<!ATTLIST butaca
+    id ID #REQUIRED
+    tipo (normal | premium | adaptada) #REQUIRED
+>
+
+<!ELEMENT fila (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+
+<!ELEMENT sesiones (sesion+)>
+<!ELEMENT sesion (fecha, hora, precio)>
+<!ATTLIST sesion
+    id ID #REQUIRED
+    pelicula IDREF #REQUIRED
+    sala IDREF #REQUIRED
+>
+
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda (EUR) #REQUIRED>
+
+<!ELEMENT reservas (reserva+)>
+<!ELEMENT reserva (cliente, fecha, entradas)>
+<!ATTLIST reserva
+    id ID #REQUIRED
+    sesion IDREF #REQUIRED
+    estado (pendiente | confirmada | cancelada) #REQUIRED
+>
+
+<!ELEMENT cliente (nombre, correo)>
+<!ELEMENT correo (#PCDATA)>
+
+<!ELEMENT entradas (entrada+)>
+<!ELEMENT entrada EMPTY>
+<!ATTLIST entrada
+    butaca IDREF #REQUIRED
+    tipo (general | infantil | reducida) #REQUIRED
+>
