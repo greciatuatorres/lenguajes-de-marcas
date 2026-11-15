@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca actualizado="2026-11-15">
+
+    <libro id="L001" disponible="true">
+        <titulo>Alas de sangre</titulo>
+        <autor>
+            <nombre>Rebecca Yarros</nombre>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </autor>
+        <añopublicacion>2023</añopublicacion>
+        <generos>
+            <genero>Fantasía</genero>
+            <genero>Romance</genero>
+            <genero>Juvenil</genero>
+        </generos>
+        <editorial>Planeta</editorial>
+        <formatos>
+            <formato>Tapa dura</formato>
+            <formato>Libro electrónico</formato>
+            <formato>Audiolibro</formato>
+        </formatos>
+        <precio moneda="EUR">22.90</precio>
+        <valoracion>4.7</valoracion>
+        <saga>Empíreo</saga>
+        <descripcion>Fantasía &amp; romance en un mundo de dragones.</descripcion>
+    </libro>
+
+    <libro id="L002" disponible="true">
+        <titulo>Alas de hierro</titulo>
+        <autor>
+            <nombre>Rebecca Yarros</nombre>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </autor>
+        <añopublicacion>2023</añopublicacion>
+        <generos>
+            <genero>Fantasía</genero>
+            <genero>Romance</genero>
+            <genero>Juvenil</genero>
+        </generos>
+        <editorial>Planeta</editorial>
+        <formatos>
+            <formato>Tapa dura</formato>
+            <formato>Libro electrónico</formato>
+        </formatos>
+        <precio moneda="EUR">24.90</precio>
+        <valoracion>4.6</valoracion>
+        <saga>Empíreo</saga>
+        <descripcion>Continuación de una historia de fantasía &amp; romance.</descripcion>
+    </libro>
+
+    <libro id="L003" disponible="false">
+        <titulo>Una corte de rosas y espinas</titulo>
+        <autor>
+            <nombre>Sarah J. Maas</nombre>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </autor>
+        <añopublicacion>2015</añopublicacion>
+        <generos>
+            <genero>Fantasía</genero>
+            <genero>Romance</genero>
+        </generos>
+        <editorial>Planeta</editorial>
+        <formatos>
+            <formato>Tapa blanda</formato>
+            <formato>Libro electrónico</formato>
+            <formato>Audiolibro</formato>
+        </formatos>
+        <precio moneda="EUR">18.90</precio>
+        <valoracion>4.5</valoracion>
+        <saga>Una corte de rosas y espinas</saga>
+        <descripcion>Una historia de fantasía &amp; romance con criaturas mágicas.</descripcion>
+    </libro>
+
+    <libro id="L004" disponible="true">
+        <titulo>La biblioteca de la medianoche</titulo>
+        <autor>
+            <nombre>Matt Haig</nombre>
+            <nacionalidad>Británica</nacionalidad>
+        </autor>
+        <añopublicacion>2020</añopublicacion>
+        <generos>
+            <genero>Fantasía</genero>
+            <genero>Ficción contemporánea</genero>
+        </generos>
+        <editorial>AdN</editorial>
+        <formatos>
+            <formato>Tapa blanda</formato>
+            <formato>Libro electrónico</formato>
+            <formato>Audiolibro</formato>
+        </formatos>
+        <precio moneda="EUR">18.95</precio>
+        <valoracion>4.2</valoracion>
+        <descripcion>Una novela de fantasía &amp; reflexión sobre las posibilidades de la vida.</descripcion>
+    </libro>
+
+    <libro id="L005" disponible="true">
+        <titulo>Romper el círculo</titulo>
+        <autor>
+            <nombre>Colleen Hoover</nombre>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </autor>
+        <añopublicacion>2016</añopublicacion>
+        <generos>
+            <genero>Romance</genero>
+            <genero>Drama</genero>
+        </generos>
+        <editorial>Planeta</editorial>
+        <formatos>
+            <formato>Tapa blanda</formato>
+            <formato>Libro electrónico</formato>
+            <formato>Audiolibro</formato>
+        </formatos>
+        <precio moneda="EUR">19.90</precio>
+        <valoracion>4.4</valoracion>
+        <descripcion>Una historia de amor &amp; superación personal.</descripcion>
+    </libro>
+
+    <libro id="L006" disponible="false">
+        <titulo>Volver a empezar</titulo>
+        <autor>
+            <nombre>Colleen Hoover</nombre>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </autor>
+        <añopublicacion>2022</añopublicacion>
+        <generos>
+            <genero>Romance</genero>
+            <genero>Drama</genero>
+        </generos>
+        <editorial>Planeta</editorial>
+        <formatos>
+            <formato>Tapa blanda</formato>
+            <formato>Libro electrónico</formato>
+        </formatos>
+        <precio moneda="EUR">18.95</precio>
+        <valoracion>4.2</valoracion>
+        <descripcion>Una historia de romance &amp; nuevas oportunidades.</descripcion>
+    </libro>
+
+    <libro id="L007" disponible="true">
+        <titulo>La hipótesis del amor</titulo>
+        <autor>
+            <nombre>Ali Hazelwood</nombre>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </autor>
+        <añopublicacion>2021</añopublicacion>
+        <generos>
+            <genero>Romance</genero>
+            <genero>Comedia</genero>
+        </generos>
+        <editorial>Contraluz</editorial>
+        <formatos>
+            <formato>Tapa blanda</formato>
+            <formato>Libro electrónico</formato>
+            <formato>Audiolibro</formato>
+        </formatos>
+        <precio moneda="EUR">18.90</precio>
+        <valoracion>4.3</valoracion>
+        <descripcion>Una comedia romántica &amp; científica.</descripcion>
+    </libro>
+
+    <libro id="L008" disponible="false">
+        <titulo>La asistenta</titulo>
+        <autor>
+            <nombre>Freida McFadden</nombre>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </autor>
+        <añopublicacion>2022</añopublicacion>
+        <generos>
+            <genero>Thriller</genero>
+            <genero>Misterio</genero>
+        </generos>
+        <editorial>Suma</editorial>
+        <formatos>
+            <formato>Tapa blanda</formato>
+            <formato>Libro electrónico</formato>
+            <formato>Audiolibro</formato>
+        </formatos>
+        <precio moneda="EUR">19.90</precio>
+        <valoracion>4.2</valoracion>
+        <saga>La asistenta</saga>
+        <descripcion>Un thriller psicológico lleno de secretos &amp; misterios.</descripcion>
+    </libro>
+
+    <libro id="L009" disponible="true">
+        <titulo>El secreto de la asistenta</titulo>
+        <autor>
+            <nombre>Freida McFadden</nombre>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </autor>
+        <añopublicacion>2023</añopublicacion>
+        <generos>
+            <genero>Thriller</genero>
+            <genero>Misterio</genero>
+        </generos>
+        <editorial>Suma</editorial>
+        <formatos>
+            <formato>Tapa blanda</formato>
+            <formato>Libro electrónico</formato>
+        </formatos>
+        <precio moneda="EUR">20.90</precio>
+        <valoracion>4.1</valoracion>
+        <saga>La asistenta</saga>
+        <descripcion>Una nueva historia de suspense &amp; secretos.</descripcion>
+    </libro>
+
+    <libro id="L010" disponible="true">
+        <titulo>Proyecto Hail Mary</titulo>
+        <autor>
+            <nombre>Andy Weir</nombre>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </autor>
+        <añopublicacion>2021</añopublicacion>
+        <generos>
+            <genero>Ciencia ficción</genero>
+            <genero>Thriller</genero>
+        </generos>
+        <editorial>Nova</editorial>
+        <formatos>
+            <formato>Tapa blanda</formato>
+            <formato>Libro electrónico</formato>
+            <formato>Audiolibro</formato>
+        </formatos>
+        <precio moneda="EUR">21.75</precio>
+        <valoracion>4.7</valoracion>
+        <descripcion>Una aventura espacial de ciencia ficción &amp; supervivencia.</descripcion>
+    </libro>
+
+    <libro id="L011" disponible="false">
+        <titulo>El marciano</titulo>
+        <autor>
+            <nombre>Andy Weir</nombre>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </autor>
+        <añopublicacion>2014</añopublicacion>
+        <generos>
+            <genero>Ciencia ficción</genero>
+            <genero>Thriller</genero>
+        </generos>
+        <editorial>Nova</editorial>
+        <formatos>
+            <formato>Tapa blanda</formato>
+            <formato>Libro electrónico</formato>
+        </formatos>
+        <precio moneda="EUR">12.95</precio>
+        <valoracion>4.5</valoracion>
+        <descripcion>Una historia de ciencia ficción &amp; supervivencia en Marte.</descripcion>
+    </libro>
+
+    <libro id="L012" disponible="true">
+        <titulo>Balada de pájaros cantores y serpientes</titulo>
+        <autor>
+            <nombre>Suzanne Collins</nombre>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </autor>
+        <añopublicacion>2020</añopublicacion>
+        <generos>
+            <genero>Ciencia ficción</genero>
+            <genero>Distopía</genero>
+            <genero>Juvenil</genero>
+        </generos>
+        <editorial>Molino</editorial>
+        <formatos>
+            <formato>Tapa dura</formato>
+            <formato>Libro electrónico</formato>
+            <formato>Audiolibro</formato>
+        </formatos>
+        <precio moneda="EUR">21.90</precio>
+        <valoracion>4.3</valoracion>
+        <saga>Los juegos del hambre</saga>
+        <descripcion>Una historia de ciencia ficción &amp; supervivencia ambientada en Panem.</descripcion>
+    </libro>
+
+</biblioteca>
