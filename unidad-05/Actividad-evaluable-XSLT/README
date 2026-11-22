@@ -1,0 +1,251 @@
+# 🎬 Actividad evaluable XSLT — Una noche de cine en Marvel
+
+## 📌  Descripción
+
+En esta actividad se ha creado un catálogo cinematográfico basado en el universo de **Marvel**, utilizando **XML, XPath, XSLT y CSS**.
+
+El objetivo es transformar un documento XML con información sobre diferentes películas en una página web HTML visual e interactiva mediante una hoja de transformación XSLT.
+
+La página está organizada en cuatro categorías principales:
+
+- 🔴 Iron Man
+- ⚡ Thor
+- 🔵 Capitán América
+- ⭐ Los Vengadores
+
+Cada categoría contiene tres películas, formando un total de **12 películas**.
+
+---
+
+## 📁 Estructura del proyecto
+
+```text
+actividad-evaluable-xslt/
+│
+├── README.md
+├── cartelera.xml
+├── cartelera.xsl
+├── cartelera.html
+├── estilos.css
+│
+└── img/
+    ├── ironman-01.jpeg
+    ├── ironman-02.JPG
+    ├── ironman-03.jpg
+    ├── thor-01.jpg
+    ├── thor-02.jpg
+    ├── thor-03.jpg
+    ├── capitanamerica-01.jpg
+    ├── capitanamerica-02.jpg
+    ├── capitanamerica-03.jpg
+    ├── theavengers-01.jpg
+    ├── theavengers-02.jpg
+    └── theavengers-03.jpeg
+```
+
+---
+
+## 🗂️ Contenido del XML
+
+El archivo `cartelera.xml` contiene la información de las películas.
+
+Cada categoría se representa mediante el elemento:
+
+```xml
+<categoria nombre="Iron Man">
+```
+
+Dentro de cada categoría se encuentran las películas mediante el elemento:
+
+```xml
+<pelicula id="iron-man">
+```
+
+Cada película contiene:
+
+- `titulo`: título de la película.
+- `anio`: año de estreno.
+- `duracion`: duración en minutos.
+- `sinopsis`: breve descripción de la película.
+- `reparto`: actores principales.
+- `imagen`: ruta de la imagen utilizada.
+- `id`: identificador único de cada película.
+
+Ejemplo:
+
+```xml
+<pelicula id="iron-man">
+
+    <titulo>Iron Man</titulo>
+
+    <anio>2008</anio>
+
+    <duracion>126</duracion>
+
+    <sinopsis>
+        Tony Stark es un brillante inventor y empresario...
+    </sinopsis>
+
+    <reparto>
+        <actor>Robert Downey Jr.</actor>
+        <actor>Gwyneth Paltrow</actor>
+    </reparto>
+
+    <imagen>img/ironman-01.jpeg</imagen>
+
+</pelicula>
+```
+
+---
+
+## 🔄 Transformación XSLT
+
+El archivo `cartelera.xsl` se encarga de transformar el documento XML en una página HTML.
+
+La transformación utiliza XPath para seleccionar la información del XML.
+
+Por ejemplo:
+
+```xml
+<xsl:for-each select="cartelera/categoria">
+```
+
+permite recorrer todas las categorías del catálogo.
+
+Para recorrer las películas de cada categoría se utiliza:
+
+```xml
+<xsl:for-each select="pelicula">
+```
+
+También se utiliza:
+
+```xml
+<xsl:value-of select="titulo"/>
+```
+
+para mostrar el título de cada película.
+
+---
+
+## 🔢 Ordenación de las películas
+
+Las películas de cada categoría se muestran ordenadas por año de estreno, de más antigua a más reciente.
+
+Para realizarlo se utiliza:
+
+```xml
+<xsl:sort
+    select="anio"
+    data-type="number"
+    order="ascending"/>
+```
+
+De esta forma, aunque las películas del XML se modificaran de posición, la página seguiría mostrándolas correctamente ordenadas por año.
+
+---
+
+## 🎨 Diseño y CSS
+
+El archivo `estilos.css` contiene todo el diseño visual de la página.
+
+Se ha creado una estética cinematográfica oscura, inspirada en las presentaciones de películas de superhéroes.
+
+La página incluye:
+
+- Fondo oscuro y efectos de iluminación.
+- Animaciones de entrada.
+- Efectos al pasar el ratón sobre las películas.
+- Tarjetas para cada película.
+- Diseño adaptable a diferentes tamaños de pantalla.
+- Navegación entre categorías.
+- Efectos visuales diferentes para cada personaje.
+
+### Efectos especiales
+
+Cada categoría tiene una identidad visual diferente:
+
+**Iron Man**
+
+Se utiliza un efecto de partículas y energía inspirado en la nanotecnología.
+
+**Thor**
+
+Se utilizan efectos de electricidad, rayos y resplandor azul.
+
+**Capitán América**
+
+Se utiliza un escudo circular con los colores característicos del personaje y ondas de energía.
+
+**Los Vengadores**
+
+Se combinan diferentes colores y efectos de los personajes, incorporando una **A central dentro de un círculo energético**.
+
+---
+
+## 🖼️ Imágenes
+
+Las imágenes utilizadas se encuentran dentro de la carpeta `img/`.
+
+Las rutas de las imágenes se almacenan directamente en el XML:
+
+```xml
+<imagen>img/ironman-01.jpeg</imagen>
+```
+
+Posteriormente, XSLT utiliza esa información para generar las imágenes HTML:
+
+```xml
+<img src="{imagen}"
+     alt="Póster de {titulo}"/>
+```
+
+También se utiliza el atributo `alt` para proporcionar una descripción de cada imagen.
+
+---
+
+## 🌐 Generación del HTML
+
+El archivo `cartelera.html` es el resultado de transformar el XML mediante XSLT.
+
+Para realizar la transformación se utiliza `xsltproc`.
+
+El comando utilizado es:
+
+```bash
+xsltproc cartelera.xsl cartelera.xml > cartelera.html
+```
+
+Después se puede abrir el resultado en Firefox:
+
+```bash
+firefox cartelera.html
+```
+
+---
+
+## 🧪 Prueba de modificación
+
+Para comprobar que la transformación funciona correctamente, se realizó una prueba añadiendo una nueva película al archivo XML.
+
+Después de modificar el XML se volvió a ejecutar:
+
+```bash
+xsltproc cartelera.xsl cartelera.xml > cartelera.html
+```
+
+La nueva película apareció automáticamente en la página generada.
+
+Esto demuestra que el HTML se genera a partir de los datos del XML y no se ha creado manualmente película por película.
+
+---
+
+## 🧩 Tecnologías utilizadas
+
+- **XML** → almacenamiento y organización de los datos.
+- **XPath** → selección y recorrido de los elementos del XML.
+- **XSLT** → transformación del XML en HTML.
+- **HTML** → estructura de la página generada.
+- **CSS** → diseño, animaciones y efectos visuales.
+- **xsltproc** → procesador utilizado para realizar la transformación.
+

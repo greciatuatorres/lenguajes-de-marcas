@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cartelera>
+
+    <categoria nombre="Iron Man">
+
+        <pelicula id="iron-man">
+            <titulo>Iron Man</titulo>
+            <anio>2008</anio>
+            <duracion>126</duracion>
+            <sinopsis>
+                Tony Stark es un brillante inventor y empresario que es capturado durante
+                un viaje. Para escapar, construye una armadura tecnológica que le permite
+                sobrevivir y que terminará convirtiéndolo en el héroe Iron Man.
+            </sinopsis>
+            <reparto>
+                <actor>Robert Downey Jr.</actor>
+                <actor>Gwyneth Paltrow</actor>
+            </reparto>
+            <imagen>img/ironman-01.jpeg</imagen>
+        </pelicula>
+
+        <pelicula id="iron-man-2">
+            <titulo>Iron Man 2</titulo>
+            <anio>2010</anio>
+            <duracion>124</duracion>
+            <sinopsis>
+                Tony Stark ha revelado al mundo que es Iron Man y debe enfrentarse a
+                nuevos enemigos que quieren utilizar su tecnología. Al mismo tiempo,
+                intenta solucionar los problemas que amenazan su propia vida.
+            </sinopsis>
+            <reparto>
+                <actor>Robert Downey Jr.</actor>
+                <actor>Don Cheadle</actor>
+            </reparto>
+            <imagen>img/ironman-02.JPG</imagen>
+        </pelicula>
+
+        <pelicula id="iron-man-3">
+            <titulo>Iron Man 3</titulo>
+            <anio>2013</anio>
+            <duracion>130</duracion>
+            <sinopsis>
+                Después de los acontecimientos de Nueva York, Tony Stark atraviesa
+                una etapa complicada mientras aparece una nueva amenaza relacionada
+                con un misterioso enemigo conocido como el Mandarín.
+            </sinopsis>
+            <reparto>
+                <actor>Robert Downey Jr.</actor>
+                <actor>Gwyneth Paltrow</actor>
+            </reparto>
+            <imagen>img/ironman-03.jpg</imagen>
+        </pelicula>
+
+    </categoria>
+
+
+    <categoria nombre="Thor">
+
+        <pelicula id="thor">
+            <titulo>Thor</titulo>
+            <anio>2011</anio>
+            <duracion>115</duracion>
+            <sinopsis>
+                Thor, príncipe de Asgard, es enviado a la Tierra después de provocar
+                un conflicto por su comportamiento impulsivo. Allí tendrá que aprender
+                el valor de la responsabilidad y demostrar que es digno de recuperar
+                sus poderes.
+            </sinopsis>
+            <reparto>
+                <actor>Chris Hemsworth</actor>
+                <actor>Natalie Portman</actor>
+            </reparto>
+            <imagen>img/thor-01.jpg</imagen>
+        </pelicula>
+
+        <pelicula id="thor-mundo-oscuro">
+            <titulo>Thor: El mundo oscuro</titulo>
+            <anio>2013</anio>
+            <duracion>112</duracion>
+            <sinopsis>
+                Thor debe enfrentarse a una antigua amenaza que pretende sumir el
+                universo en la oscuridad. Para detenerla tendrá que pedir ayuda a
+                Loki y proteger a Jane Foster.
+            </sinopsis>
+            <reparto>
+                <actor>Chris Hemsworth</actor>
+                <actor>Tom Hiddleston</actor>
+            </reparto>
+            <imagen>img/thor-02.jpg</imagen>
+        </pelicula>
+
+        <pelicula id="thor-ragnarok">
+            <titulo>Thor: Ragnarok</titulo>
+            <anio>2017</anio>
+            <duracion>133</duracion>
+            <sinopsis>
+                Thor queda atrapado en un planeta lejano y descubre que Asgard está
+                amenazado por una poderosa enemiga. Para regresar a casa tendrá que
+                enfrentarse a nuevos enemigos y formar equipo con Hulk.
+            </sinopsis>
+            <reparto>
+                <actor>Chris Hemsworth</actor>
+                <actor>Tom Hiddleston</actor>
+            </reparto>
+            <imagen>img/thor-03.jpg</imagen>
+        </pelicula>
+
+    </categoria>
+
+
+    <categoria nombre="Capitán América">
+
+        <pelicula id="capitan-america-primer-vengador">
+            <titulo>Capitán América: El primer vengador</titulo>
+            <anio>2011</anio>
+            <duracion>124</duracion>
+            <sinopsis>
+                Steve Rogers quiere formar parte del ejército durante la Segunda Guerra
+                Mundial, pero su condición física se lo impide. Un experimento secreto
+                lo transforma en un supersoldado y nace el Capitán América.
+            </sinopsis>
+            <reparto>
+                <actor>Chris Evans</actor>
+                <actor>Hayley Atwell</actor>
+            </reparto>
+            <imagen>img/capitanamerica-01.jpg</imagen>
+        </pelicula>
+
+        <pelicula id="capitan-america-soldado-invierno">
+            <titulo>Capitán América: El Soldado de Invierno</titulo>
+            <anio>2014</anio>
+            <duracion>136</duracion>
+            <sinopsis>
+                Steve Rogers intenta adaptarse al mundo moderno mientras trabaja
+                para S.H.I.E.L.D. Una peligrosa conspiración hace que tenga que
+                cuestionarse en quién puede confiar.
+            </sinopsis>
+            <reparto>
+                <actor>Chris Evans</actor>
+                <actor>Scarlett Johansson</actor>
+            </reparto>
+            <imagen>img/capitanamerica-02.jpg</imagen>
+        </pelicula>
+
+        <pelicula id="capitan-america-civil-war">
+            <titulo>Capitán América: Civil War</titulo>
+            <anio>2016</anio>
+            <duracion>147</duracion>
+            <sinopsis>
+                Los Vengadores se dividen debido a un conflicto sobre la responsabilidad
+                y el control de los superhéroes. Steve Rogers y Tony Stark adoptan
+                posiciones enfrentadas y el equipo termina dividido.
+            </sinopsis>
+            <reparto>
+                <actor>Chris Evans</actor>
+                <actor>Robert Downey Jr.</actor>
+            </reparto>
+            <imagen>img/capitanamerica-03.jpg</imagen>
+        </pelicula>
+
+    </categoria>
+
+
+    <categoria nombre="Los Vengadores">
+
+        <pelicula id="avengers">
+            <titulo>The Avengers: Los Vengadores</titulo>
+            <anio>2012</anio>
+            <duracion>143</duracion>
+            <sinopsis>
+                Nick Fury reúne a varios de los héroes más poderosos de la Tierra
+                para enfrentarse a Loki y a un ejército alienígena. Iron Man, Thor
+                y Capitán América forman parte del nuevo equipo de los Vengadores.
+            </sinopsis>
+            <reparto>
+                <actor>Robert Downey Jr.</actor>
+                <actor>Chris Evans</actor>
+            </reparto>
+            <imagen>img/theavengers-01.jpg</imagen>
+        </pelicula>
+
+        <pelicula id="avengers-ultron">
+            <titulo>Vengadores: La era de Ultrón</titulo>
+            <anio>2015</anio>
+            <duracion>141</duracion>
+            <sinopsis>
+                Tony Stark crea una inteligencia artificial con la intención de
+                proteger a la humanidad, pero el proyecto se vuelve contra sus
+                creadores. Los Vengadores deberán reunirse para detener a Ultrón.
+            </sinopsis>
+            <reparto>
+                <actor>Robert Downey Jr.</actor>
+                <actor>Chris Hemsworth</actor>
+            </reparto>
+            <imagen>img/theavengers-02.jpg</imagen>
+        </pelicula>
+
+        <pelicula id="avengers-infinity-war">
+            <titulo>Vengadores: Infinity War</titulo>
+            <anio>2018</anio>
+            <duracion>149</duracion>
+            <sinopsis>
+                Thanos comienza su búsqueda de las Gemas del Infinito para conseguir
+                un poder extraordinario. Los héroes del universo Marvel deberán unir
+                sus fuerzas para intentar detenerlo.
+            </sinopsis>
+            <reparto>
+                <actor>Robert Downey Jr.</actor>
+                <actor>Chris Evans</actor>
+            </reparto>
+            <imagen>img/theavengers-03.jpeg</imagen>
+        </pelicula>
+
+    </categoria>
+
+</cartelera>
