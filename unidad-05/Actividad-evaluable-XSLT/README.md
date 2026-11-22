@@ -255,3 +255,8 @@ Esto demuestra que la página no está escrita manualmente en HTML, sino que se 
 - **HTML** → estructura de la página resultante.
 - **CSS** → diseño, estilos y animaciones.
 - **xsltproc** → procesador utilizado para realizar la transformación.
+---
+
+## 🌐 Ver página web
+
+[![Ver página Marvel](https://img.shields.io/badge/VER-PÁGINA_MARVEL-red?style=for-the-badge)](https://greciatuatorres.github.io/lenguajes-de-marcas/)
